@@ -84,7 +84,7 @@ void _sub(stack_t **doubly, unsigned int cline)
 
 	aux = *doubly;
 
-	for (; aux != NULL; aux->next, m++)
+	for (; aux != NULL; aux = aux->next, m++)
 		;
 
 	if (m < 2)

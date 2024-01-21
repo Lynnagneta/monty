@@ -32,7 +32,7 @@ void _push(stack_t **doubly, unsigned int cline)
 
 	n = atoi(vglo.arg);
 
-	if (vglo.arg == 1)
+	if (vglo.lifo == 1)
 		add_dnodeint(doubly, n);
 	else
 		add_dnodeint_end(doubly, n);
@@ -45,9 +45,9 @@ void _push(stack_t **doubly, unsigned int cline)
  * @cline: line numbers
  * Return: no return
  */
-void_pall(stack_t **doubly, unsigned int cline)
+void _pall(stack_t **doubly, unsigned int cline)
 {
-	stack_t *x;
+	stack_t *aux;
 	(void)cline;
 
 	aux = *doubly;
