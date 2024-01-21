@@ -17,7 +17,7 @@ void _div(stack_t **doubly, unsigned int cline)
 	for (; aux != NULL; aux = aux->next, m++)
 		;
 
-	if ( m < 2)
+	if (m < 2)
 	{
 		dprintf(2, "L%u: can't div, stack too short\n", cline);
 		free_vglo();
@@ -51,7 +51,7 @@ void _mul(stack_t **doubly, unsigned int cline)
 	for (; aux != NULL; aux = aux->next, m++)
 		;
 
-	if ( m < 2)
+	if (m < 2)
 	{
 		dprintf(2, "L%u: can't mul, stack too short\n", cline);
 		free_vglo();
@@ -81,7 +81,7 @@ void _mod(stack_t **doubly, unsigned int cline)
 	for (; aux != NULL; aux = aux->next, m++)
 		;
 
-	if ( m < 2)
+	if (m < 2)
 	{
 		dprintf(2, "L%u: can't mod, stack too short\n", cline);
 		free_vglo();

@@ -1,4 +1,4 @@
-#include ""monty.h"
+#include "monty.h"
 
 /**
  * _push - pushes an element to the stack
@@ -111,7 +111,7 @@ void _pop(stack_t **doubly, unsigned int cline)
  * @cline: line number
  * Return: no return
  */
-void _swap (stack **doubly, unsigned int cline)
+void _swap(stack_t **doubly, unsigned int cline)
 {
 	int m = 0;
 	stack_t *aux = NULL;

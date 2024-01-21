@@ -49,10 +49,10 @@ int _sch(char *s, char c)
  * @d: delimeters
  * Return: first partition
  */
-char *_stroky(char *S, char *d)
+char *_stroky(char *s, char *d)
 {
 	static char *ultimo;
-	int i = 0, j =0;
+	int i = 0, j = 0;
 
 	if (!s)
 		s = ultimo;
