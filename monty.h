@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #ifndef __MONTY_H__
 #define __MONTY_H__
+=======
+#ifndef MONTY_H
+#define MONTY_H
+>>>>>>> ee274c1dcf415e952139f67c408fc40bee2fdee6
 
 #include <stdio.h>
 #include <stdlib.h>
